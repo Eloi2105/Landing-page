@@ -1,0 +1,28 @@
+.container{
+	align-content: center;
+	text-align: center;
+	width: 1040px;
+	padding: 24px;
+	margin: 0 auto;
+}
+
+@media(max-width: 900px){
+	.container{
+		width: 700px;
+	}
+}
+@media(max-width: 600px){
+	.container{
+		width:  400px;
+	}
+}
+
+.liste{
+	list-style: none;
+	margin-left:0 ;
+	padding-left:0 ;
+	color: #125D98;
+}
+ a{
+ 	color: #125D98;
+ }

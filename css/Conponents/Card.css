@@ -1,0 +1,48 @@
+.card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px;
+	border-radius: 8px;
+	background: #DDDDDD;
+	width: 800px;
+	color: #125D98;
+	border-color: #125D98;
+	border: solid 3px;
+	padding: 24px;
+	margin: 12px auto;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	font-family: 'Bebas Neues', sans-serif;
+}
+.card img{
+	width: 132px;
+	height: 132px;
+	border-radius: 12px;
+}
+
+
+@media(max-width: 900px){
+	.card{
+		width: 700px;
+	}
+}
+@media(max-width: 600px){
+	.card{
+		width:  400px;
+	}
+}
+
+.contact{
+	text-align: center;
+	padding: 12px;
+	color: #125D98;
+	font-family: 'Bebas Neues', sans-serif;
+	border-radius: 8px;
+	background: #DDDDDD;
+	width: 800px;
+	border: solid 3px;
+	border-color: #125D98;
+	padding: 24px;
+	margin: 12px auto;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	

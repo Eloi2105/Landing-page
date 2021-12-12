@@ -1,0 +1,10 @@
+@import url(Conponents/avatar.css);
+@import url(Conponents/banner.css);
+@import url(Conponents/button.css);
+@import url(Conponents/container.css);
+@import url(Conponents/Card.css);
+@import url(Conponents/navbar.css);
+body {
+	margin: 0px;
+	background: #DDDDDD;
+}

@@ -1,0 +1,30 @@
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+	position: fixed;
+	align-items: flex;
+	padding: 12px 54px;
+	background-color: #125D98;
+	color: #DDDDDD;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.navbar a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	color: #DDDDDD;
+	font-size: 24px;
+}
+
+.navbar a:hover{
+	padding: 6px;
+	background-color: #DDDDDD;
+	border-radius: 8px ;
+	color: #125D98;
+	transition: 0.5s;
+	height: auto;
+}
